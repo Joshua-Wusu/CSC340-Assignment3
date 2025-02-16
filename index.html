@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Gallery</title>
+    <style>
+        body {
+            font-family: Oswald;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        nav {
+            background-color: #343a40;
+            padding: 40px;
+            display: flex; /* Enable flexbox */
+            justify-content: space-between; /* Distribute space between items */
+            align-items: center; /* Vertically align items */
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Make list items horizontal */
+        }
+        nav li {
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        .navbar-brand { /* Style for the "Bird Gallery" text */
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            margin-left: 10px; /* Add some left margin */
+        }
+        .navbar-brand img {
+            max-height: 30px; /* Adjust the size as needed */
+            margin-right: 5px; /* Add spacing between the logo and text */
+            vertical-align: middle; /* Vertically align the logo with the text */
+            align-items: center; /* Vertically center the items */
+        }
+    .container {
+            padding: 20px;
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+
+            h1 {
+               font-size: 15px;
+            }
+    }
+    .bird-entry {
+            margin-bottom: 30px;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+    .bird-entry img {
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 0 auto 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ccc;
+            border-width: 5px;
+        }
+    .bird-entry h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+    .bird-entry p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+  <span class="navbar-brand">
+        <img src="BirdFile/Logo.webp" alt="Bird Gallery Logo"> The Bird Gallery
+    </span>  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="details.html">Details</a></li>
+    <li><a href="about.html">About</a></li>
+</ul>
+</nav>
+
+<div class="container">
+    <h1>»Explore the Feathered World, take a look a 6 unique bird species</h1>
+
+    <div class="bird-entry">
+        <img src="/BirdFile/Bald-Eagle.jpeg" alt="Bald Eagle">
+        <h2>Bald Eagle</h2>
+        <p>The bald eagle, with its striking white head and tail feathers contrasting against a dark brown body,
+            is a majestic symbol of the United States.
+            These powerful raptors are found near large bodies of open water, where they primarily feed on fish.
+            Bald eagles have incredible eyesight, enabling them to spot prey from great distances. They build massive nests,
+            often in tall trees, and mate for life.
+            Historically, bald eagle populations faced significant decline due to habitat loss and pesticide use.
+            However, through conservation efforts, their numbers have rebounded, and they are no longer considered an endangered species.
+        </p>
+    </div>
+
+    <div class="bird-entry">
+        <img src="/BirdFile/Budgerigar.jpg" alt="Budgerigar">
+        <h2>Budgerigar</h2>
+        <p>The budgerigar, also known as the "budgie," is a small, long-tailed parrot native to Australia.
+            These social birds are popular pets worldwide due to their vibrant colors, playful personalities, and ability to mimic human speech.
+            In the wild, budgies live in flocks and thrive in arid and semi-arid habitats. They feed primarily on seeds and grasses.
+            Budgies are sexually dimorphic, meaning males and females can be distinguished by their cere color (the fleshy area above the beak).
+            Male budgies typically have a blue cere, while females have a brown or crusty cere.
+        </p>
+    </div>
+
+    <div class="bird-entry">
+        <img src="/BirdFile/Great-horned-owl.jpg" alt="Great Horned Owl">
+        <h2>Great Horned Owl</h2>
+        <p>The great horned owl, with its prominent ear tufts and piercing yellow eyes, is a formidable predator of the night.
+            Found throughout the Americas, these owls are highly adaptable, inhabiting diverse environments from forests to deserts.
+            They are known for their deep hooting calls, which often echo through the night.
+            Great horned owls are powerful hunters with exceptional hearing and eyesight. They prey on a wide variety of animals, including rodents, rabbits, skunks, and even other birds.
+            Their strong talons and sharp beaks make them efficient killing machines.
+        </p>
+    </div>
+
+    <div class="bird-entry">
+        <img src="/BirdFile/Peregrine-falcon.jpg" alt="Peregrine Falcon">
+        <h2>Peregrine Falcon</h2>
+        <p>The Peregrine falcon is renowned for its incredible speed, reaching over 200 miles per hour during its hunting dives, making it the fastest bird in the world.
+            These powerful raptors have a distinctive black "moustache" marking on their face and are found on every continent except Antarctica.
+            Peregrine falcons primarily prey on other birds, which they capture in mid-air with their powerful talons.
+            They are highly adaptable, nesting on cliffs, buildings, and even bridges in urban areas.
+            Like many birds of prey, Peregrine falcons were negatively impacted by pesticides, but populations have recovered significantly thanks to conservation efforts.
+        </p>
+    </div>
+
+    <div class="bird-entry">
+        <img src="/BirdFile/Humming-bird.jpg" alt="Bee Humming Bird">
+        <h2>Bee Humming Bird</h2>
+        <p>Hummingbirds are a marvel of nature, renowned for their tiny size, vibrant colors, and incredible aerial acrobatics.
+            These birds are unique in their ability to hover mid-air and even fly backwards, thanks to their rapid wing-beats (up to 80 times per second!).
+            Hummingbirds are found exclusively in the Americas, with the greatest diversity in the tropics.
+            They feed primarily on nectar from flowers, using their long, specialized tongues to reach deep into blossoms.
+            This high-energy diet fuels their active lifestyle and rapid metabolism.
+            Hummingbirds play a vital role in pollination, transferring pollen as they move from flower to flower.
+        </p>
+    </div>
+
+    <div class="bird-entry">
+        <img src="/BirdFile/Blue-jay.jpg" alt="Blue Jay">
+        <h2>Blue Jay</h2>
+        <p>The blue jay is a common and boisterous bird known for its vibrant blue plumage, loud calls, and intelligent behavior.
+            These songbirds are found throughout eastern and central North America, inhabiting a variety of habitats, including forests, woodlands, and urban areas.
+            Blue jays are omnivorous, feeding on nuts, seeds, insects, and even small vertebrates.
+            They are known for their intelligence and complex social interactions.
+            Blue jays are also excellent mimics, able to imitate the calls of hawks and other birds, sometimes to scare off competitors or warn of danger.
+        </p>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
